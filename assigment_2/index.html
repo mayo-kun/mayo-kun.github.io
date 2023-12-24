@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>figma</title>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="big-container">
+      <section class="section-left">
+        <figure>
+          <img id="logo" src="./assets/Logo (1).png" alt="logo" />
+        </figure>
+        <h2>For Individuals</h2>
+        <p>
+          Start benefiting from the wellness experience. For companies looking
+          on increasing productivity, and improving organization wellness.
+        </p>
+      </section>
+
+      <section class="section-right">
+        <div class="form-container">
+          <form action="" method="post">
+            <div class="input-field">
+              <div class="field field1">
+                <label for="F-name" title="First Name">First Name</label>
+                <input
+                  type="text"
+                  id="F-name"
+                  name="F-name"
+                  required
+                  placeholder="Tolu"
+                />
+              </div>
+              <div class="field field2">
+                <label for="L-name" title="Last Name">last Name</label>
+                <input
+                  type="text"
+                  id="L-name"
+                  name="L-name"
+                  required
+                  placeholder=""
+                />
+              </div>
+
+              <div class="field field3">
+                <label for="gender" title="Gender">Gender:</label>
+                <select name="gender" id="gender">
+                  <option value="" disabled selected>Select here</option>
+                  <option value="male">Male</option>
+                  <option value="female">Female</option>
+                </select>
+              </div>
+              <div class="field field4">
+                <label for="date_of_birth" title="date of birth"
+                  >Date of Birth:</label
+                >
+                <input
+                  type="date"
+                  id="date_of_birth"
+                  name="date_of_birth"
+                  required
+                  placeholder="Select here"
+                />
+              </div>
+
+              <div class="field field5">
+                <label for="weight" title="weight">Weight (KG)</label>
+                <input
+                  id="calendar"
+                  type="text"
+                  id="weight"
+                  name="weight"
+                  required
+                  placeholder="Enter Weight"
+                />
+              </div>
+              <div class="field field6">
+                <label for="height" title="height">Height (CM)</label>
+                <input
+                  type="text"
+                  id="height"
+                  name="height"
+                  required
+                  placeholder="Enter height here..  "
+                />
+              </div>
+            </div>
+            <div class="input-field2">
+              <div class="field field7">
+                <label for="activity-level" title="height"
+                  >Activity Level</label
+                >
+                <input
+                  type="text"
+                  id="activity-level"
+                  name="activity-level"
+                  required
+                  placeholder="Enter height here.. "
+                />
+              </div>
+              <div class="field field8">
+                <label for="password" title="height">password</label>
+                <input
+                  type="password"
+                  id="password"
+                  name="password"
+                  required
+                  placeholder="Select here"
+                />
+              </div>
+            </div>
+          </form>
+          <button type="submit">Register</button>
+          <p class="text">
+            By clicking Register, you agree to our<a href="">Terms of Use</a>and
+            our <a href="">Privacy Policy</a>
+          </p>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>

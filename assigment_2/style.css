@@ -1,0 +1,199 @@
+/* css reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  line-height: 1.5; /** 150% of font-size **/
+  -webkit-font-smoothing: antialiased;
+}
+
+/* replaced element */
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+/*main css*/
+@font-face {
+  font-family: poppins;
+  src: url(./assets/poppins/Poppins-Bold.ttf);
+}
+div.big-container {
+  height: 841.6px;
+  width: 1441.6px;
+  background: #f7fdfc;
+  /*opacity: 20%;
+  background-color: hsla(174, 62%, 47%, 1);*/
+  border: 2px solid;
+  margin: 50px auto;
+  display: flex;
+
+  justify-content: space-evenly;
+}
+#logo {
+  height: 80px;
+  width: 77.33334px;
+  margin: 205px 502.67px 50px 140px;
+  padding: 0;
+  border: 1px solid;
+}
+section.section-left {
+  margin-inline-start: 140px;
+}
+.section-left h2 {
+  width: 268px;
+  height: 50px;
+  color: hsla(174, 100%, 2%, 1);
+  font-family: brown;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 50px; /* 125% */
+  letter-spacing: -0.8px;
+  margin: 50px 312px 20px 140px;
+}
+.section-left p {
+  width: 460px;
+  height: 75px;
+  color: hsla(0, 0%, 45%, 1);
+  font-family: Brown;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px; /* 156.25% */
+  margin: 20px 120px 360px 140px;
+}
+div.form-container {
+  margin-inline-end: 120px;
+  margin-block-start: 81px;
+  margin-block-end: 80px;
+  color: rgba(255, 255, 255, 1);
+  border-radius: 6px;
+  background: #fff;
+  box-shadow: 0px 4px 50px 0px rgba(4, 8, 19, 0.1);
+  width: 580px;
+  height: 679px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+label {
+  color: hsla(208, 96%, 10%, 1);
+  font-family: Sofia Pro;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.1px;
+  margin-bottom: 10px;
+  width: 159px;
+  height: 14px;
+}
+div.calender {
+  position: absolute;
+  right: 8px;
+  top: 12px;
+  bottom: 12px;
+  color: (0, 0%, 65%, 1);
+}
+div.date-of-birth {
+  position: relative;
+}
+input,
+select {
+  width: 238px;
+  height: 48px;
+  flex-shrink: 0;
+  color: (174, 62%, 47%, 1);
+  border-radius: 2px;
+  border: 1px solid rgba(240, 240, 240, 1);
+  margin-bottom: 30px;
+}
+label[for*="Password activity-level"] {
+  width: 333px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+}
+.input-field {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.input-field2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+label[for*="name" i] {
+  margin-top: 40px;
+}
+input {
+  margin-bottom: 30px;
+}
+div.input-field2 input {
+  width: 500px;
+}
+div.input-field2 label {
+  width: 333px;
+}
+button {
+  width: 500px;
+  height: 48px;
+  background-color: rgba(46, 196, 182, 1);
+  box-shadow: rgba(0, 0, 0, 0.1);
+  margin-left: 40px;
+  margin-bottom: 16px;
+}
+div.input-field2 {
+  margin-left: 40px;
+}
+p.text {
+  color: #000;
+  font-family: Sofia Pro;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px; /* 178.571% */
+  margin: 16px 59px 40px 58px;
+  width: 463px;
+  height: 25px;
+}
+p.text a {
+  color: rgba(46, 196, 182, 1);
+  font-family: Sofia Pro;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 25px;
+  text-decoration-line: underline;
+}
